@@ -85,3 +85,5 @@ Route::middleware('auth:api')->group(function () {
 });
 
 Route::resource('v1/email-templates', 'EmailTemplateAPIController');
+
+Route::resource('v1/tasks', 'TaskAPIController');

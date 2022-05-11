@@ -57,3 +57,8 @@ email-templates.create,13,"Email Templates","Create Email Templates",0
 email-templates.show,13,"Email Templates","Show Email Templates",0
 email-templates.edit,13,"Email Templates","Edit Email Templates",0
 email-templates.destroy,13,"Email Templates","Destroy Email Templates",0
+tasks.index,15,Tasks,"Index Tasks",0
+tasks.create,15,Tasks,"Create Tasks",0
+tasks.show,15,Tasks,"Show Tasks",0
+tasks.edit,15,Tasks,"Edit Tasks",0
+tasks.destroy,15,Tasks,"Destroy Tasks",0

@@ -47,6 +47,7 @@ class User extends Authenticatable implements JWTSubject
         restore as private restoreB;
     }
 
+
     protected $cascadeDeletes = ['details', 'devices', 'socialAccounts'];
 
     /**
@@ -218,5 +219,10 @@ class User extends Authenticatable implements JWTSubject
         return $query->whereHas('devices', function ($q) use ($deviceType) {
             return $q->where('device_type', $deviceType);
         });
+    }
+
+    public function task()
+    {
+        return $this->hasMany(Task::class,'user_id');
     }
 }

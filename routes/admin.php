@@ -48,3 +48,5 @@ Route::post('updateChannelPosition', 'MenuController@update_channel_position')->
 Route::resource('settings', 'SettingController');
 
 Route::resource('email-templates', 'EmailTemplateController');
+
+Route::resource('tasks', 'TaskController');
